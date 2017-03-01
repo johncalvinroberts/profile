@@ -1,0 +1,130 @@
+/* Here goes your CSS */
+/* Here goes your CSS */
+body {
+  background-color: #F3F1EE;
+  font-family: 'Roboto', sans-serif;
+  color: #1B3C59;
+  line-height: 2;
+  font-size: 13px;
+  letter-spacing: .5px
+}
+
+h1{
+  font-size: 3em;
+  color: #11BFAE;
+  line-height: 2em;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  transition: color 3s ease;
+}
+
+h1:hover {
+  color: #456173;
+}
+
+h2{
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+h3 {
+/*  font-weight: lighter;
+*/}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+a {
+  color: #1B3C59;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.social-icon a:hover{
+  font-size: 1.1em;
+  color: #456173;
+  transition: color 0.5s;
+  transition: font-size 0.5s;
+
+}
+
+div {
+  display: block
+}
+
+.container {
+  width:500px;
+  margin: 0 auto;
+}
+
+.card {
+background-color: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 2px;
+box-shadow: 1px 1px 3px rgba(231, 229, 226, 1);
+margin: 20px;
+padding: 10px;
+min-height: 80px;
+}
+
+.social-icon {
+  float:left;
+  width: 33%;
+  margin-top: 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 1px, 1px, 1px rgba(0, 0, 0, 226, 0.2)
+}
+
+.img-square {
+  border: 0.5px solid rgba(0, 0, 0, 226, 0.1);
+  box-shadow: 1px, 1px, 1px rgba(0, 0, 0, 226, 1);
+  height: 100px;
+  width: 100px;
+}
+
+.profile {
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#table-style tr {
+  margin: 30px;
+}
+
+#table-style td {
+  padding: 10px;
+}
+
+#table-style td p {
+  font-size: 13px;
+}
+
+
+.btn-blue {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: #11BFAE;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-blue:hover {
+  background-color: #456173;
+  transition: background 0.5s;
+}
+#wechat {
+  color: #11BFAE;
+}
+
+#wechat:hover {
+  size:;
+}
